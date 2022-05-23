@@ -1,0 +1,90 @@
+@keyframes fadeinagain {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes sizeincdown {
+  0% {
+    transform: translateY(-1.3rem);
+  }
+
+  50% {
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes sizeincup {
+  0% {
+    transform: translateY(0.3rem);
+  }
+
+  50% {
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes sizeincreaseleft {
+  0% {
+    width: 95%;
+  }
+
+  50% {
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.fadeinreally {
+  animation: fadein 1.3s ease-out;
+}
+
+.increasesizereally {
+  animation: sizeincdown 0.46s ease;
+}
+
+.sizeup {
+  animation: sizeincup 0.31s ease-out;
+}
+
+.animatesizeincleft {
+  animation: sizeincreaseleft 0.3s ease-out;
+}
+
+.test {
+  min-zoom: 0;
+}
+
+.fadeinlol {
+  animation: fadeinagain 1.32s ease-out;
+}

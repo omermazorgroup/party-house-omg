@@ -46,7 +46,7 @@ function ProfilePage({
   const [error, setError] = useState(null);
   const [loadingCoverPic, setLoadingCoverPic] = useState(false);
   const [loadingProfilePic, setLoadingProfilePic] = useState(false);
-  const isUserOnOwnAccount = profile.user._id === user._id;
+  const isUserOnOwnAccount = profile?.user._id === user._id;
 
 
   const router = useRouter();

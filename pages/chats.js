@@ -135,7 +135,7 @@ function ChatsPage({ user, chatsData }) {
       });
 
       socket.current.on("newTextReceived", async ({ newText, userDetails }) => {
-
+        console.log("newText", newText);
         if (newText.sender === openChatId.current) {
           setTexts((prev) => [...prev, newText]);
 
